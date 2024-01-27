@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Website Blocker",
+    "version": "1.0",
+    "host_permissions": ["<all_urls>"],
+    "permissions": ["storage", "webNavigation"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
